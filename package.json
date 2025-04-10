@@ -10,6 +10,7 @@
   "files": [
     "build"
   ],
+  "license": "MIT",
   "scripts": {
     "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
     "prepare": "npm run build",
